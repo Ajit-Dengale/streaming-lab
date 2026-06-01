@@ -10,11 +10,11 @@ spec:
   source:
     repoURL: https://github.com/Ajit-Dengale/streaming-lab.git
     targetRevision: main
-    path: kafka
+    path: argocd
 
   destination:
     server: https://kubernetes.default.svc
-    namespace: kafka
+    namespace: argocd
 
   syncPolicy:
     automated:
