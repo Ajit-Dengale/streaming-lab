@@ -6,6 +6,7 @@ metadata:
   namespace: kafka
   annotations: 
     strimzi.io/node-pools: enabled
+    strimzi.io/kraft: enabled
 
 spec:
   kafka:
